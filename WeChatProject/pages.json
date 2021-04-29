@@ -1,0 +1,38 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "无线火灾报警软件设计"
+		}
+	},{
+		"path": "pages/setting/setting",
+		"style": {
+			"navigationBarTitleText": "无线火灾报警软件设计"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#1296db",
+		"selectedColor": "#1296db",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/home.png",
+				"selectedIconPath": "static/image/home_act.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/setting/setting",
+				"iconPath": "static/image/set.png",
+				"selectedIconPath": "static/image/set_act.png",
+				"text": "设置"
+			}
+		]
+	}
+}
